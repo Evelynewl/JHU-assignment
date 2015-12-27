@@ -43,15 +43,16 @@ p1 <- predict(rfmodel, mytraining)
 print(confusionMatrix(p1, mytraining$classe))
 ```
 The reslut shows:
+
 Confusion Matrix and Statistics
 
-          Reference
+Reference
 Prediction    A    B    C    D    E
->>>>>>>>>>A 4185    0    0    0    0
->>>>>>>>>>B    0 2848    0    0    0
->>>>>>>>>>C    0    0 2567    0    0
->>>>>>>>>>D    0    0    0 2412    0
->>>>>>>>>>E    0    0    0    0 2706
+A 4185    0    0    0    0
+B    0 2848    0    0    0
+C    0    0 2567    0    0
+D    0    0    0 2412    0
+E    0    0    0    0 2706
 
 Overall Statistics
                                      
