@@ -92,7 +92,7 @@ The result shows below:
 Confusion Matrix and Statistics
 
           Reference
-Prediction    A    B    C    D    E
+Prediction    A    B    C    D    E  
          A 1395    3    0    0    0<br>
          B    0  945    4    0    0<br>
          C    0    1  851    0    0<br>
@@ -121,7 +121,7 @@ Detection Rate         0.2845   0.1927   0.1735   0.1639   0.1837<br>
 Detection Prevalence   0.2851   0.1935   0.1737   0.1639   0.1837<br>
 Balanced Accuracy      0.9996   0.9974   0.9975   1.0000   1.0000<br>
 
-The accuracy of cross valdiation is 99.79% and I think it is not bad.
+The accuracy of cross valdiation is 99.84% and I think it is not bad.
 
 ##Testing
 I use the above model to run the test set which is named pmltesting.
@@ -130,7 +130,7 @@ finaltest <- predict(rfmodel, pmltest)
 finaltest
 ```
 
-The results shows:
+The results shows:<br>
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20<br>
 B A B A A E D B A  A  B  C  B  A  E  E  A  B  B  B<br>
 Levels: A B C D E
