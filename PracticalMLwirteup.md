@@ -49,12 +49,12 @@ The reslut shows:
 Confusion Matrix and Statistics
 
 Reference
-Prediction    A    B    C    D    E
-         A 4185    0    0    0    0
-         B    0 2848    0    0    0
-         C    0    0 2567    0    0
-         D    0    0    0 2412    0
-         E    0    0    0    0 2706
+Prediction    A    B    C    D    E  
+A 4185    0    0    0    0  
+B    0 2848    0    0    0  
+C    0    0 2567    0    0  
+D    0    0    0 2412    0  
+E    0    0    0    0 2706
 
 Overall Statistics
                                      
@@ -69,14 +69,14 @@ Overall Statistics
 Statistics by Class:
 
                      Class: A Class: B Class: C Class: D Class: E
-Sensitivity            1.0000   1.0000   1.0000   1.0000   1.0000
-Specificity            1.0000   1.0000   1.0000   1.0000   1.0000
-Pos Pred Value         1.0000   1.0000   1.0000   1.0000   1.0000
-Neg Pred Value         1.0000   1.0000   1.0000   1.0000   1.0000
-Prevalence             0.2843   0.1935   0.1744   0.1639   0.1839
-Detection Rate         0.2843   0.1935   0.1744   0.1639   0.1839
-Detection Prevalence   0.2843   0.1935   0.1744   0.1639   0.1839
-Balanced Accuracy      1.0000   1.0000   1.0000   1.0000   1.0000
+Sensitivity            1.0000   1.0000   1.0000   1.0000   1.0000<br>
+Specificity            1.0000   1.0000   1.0000   1.0000   1.0000<br>
+Pos Pred Value         1.0000   1.0000   1.0000   1.0000   1.0000<br>
+Neg Pred Value         1.0000   1.0000   1.0000   1.0000   1.0000<br>
+Prevalence             0.2843   0.1935   0.1744   0.1639   0.1839<br>
+Detection Rate         0.2843   0.1935   0.1744   0.1639   0.1839<br>
+Detection Prevalence   0.2843   0.1935   0.1744   0.1639   0.1839<br>
+Balanced Accuracy      1.0000   1.0000   1.0000   1.0000   1.0000<br>
 
 The model runs smoothly
 
@@ -93,11 +93,11 @@ Confusion Matrix and Statistics
 
           Reference
 Prediction    A    B    C    D    E
-         A 1395    3    0    0    0
-         B    0  945    4    0    0
-         C    0    1  851    0    0
-         D    0    0    0  804    0
-         E    0    0    0    0  901
+         A 1395    3    0    0    0<br>
+         B    0  945    4    0    0<br>
+         C    0    1  851    0    0<br>
+         D    0    0    0  804    0<br>
+         E    0    0    0    0  901<br>
 
 Overall Statistics
                                           
@@ -111,15 +111,15 @@ Overall Statistics
 
 Statistics by Class:
 
-                     Class: A Class: B Class: C Class: D Class: E
-Sensitivity            1.0000   0.9958   0.9953   1.0000   1.0000
-Specificity            0.9991   0.9990   0.9998   1.0000   1.0000
-Pos Pred Value         0.9979   0.9958   0.9988   1.0000   1.0000
-Neg Pred Value         1.0000   0.9990   0.9990   1.0000   1.0000
-Prevalence             0.2845   0.1935   0.1743   0.1639   0.1837
-Detection Rate         0.2845   0.1927   0.1735   0.1639   0.1837
-Detection Prevalence   0.2851   0.1935   0.1737   0.1639   0.1837
-Balanced Accuracy      0.9996   0.9974   0.9975   1.0000   1.0000
+                     Class: A Class: B Class: C Class: D Class: E  
+Sensitivity            1.0000   0.9958   0.9953   1.0000   1.0000<br>
+Specificity            0.9991   0.9990   0.9998   1.0000   1.0000<br>
+Pos Pred Value         0.9979   0.9958   0.9988   1.0000   1.0000<br>
+Neg Pred Value         1.0000   0.9990   0.9990   1.0000   1.0000<br>
+Prevalence             0.2845   0.1935   0.1743   0.1639   0.1837<br>
+Detection Rate         0.2845   0.1927   0.1735   0.1639   0.1837<br>
+Detection Prevalence   0.2851   0.1935   0.1737   0.1639   0.1837<br>
+Balanced Accuracy      0.9996   0.9974   0.9975   1.0000   1.0000<br>
 
 The accuracy of cross valdiation is 99.79% and I think it is not bad.
 
@@ -131,8 +131,8 @@ finaltest
 ```
 
 The results shows:
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
-B A B A A E D B A  A  B  C  B  A  E  E  A  B  B  B
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20<br>
+B A B A A E D B A  A  B  C  B  A  E  E  A  B  B  B<br>
 Levels: A B C D E
 
 
