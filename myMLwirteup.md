@@ -1,6 +1,6 @@
 # JHU-Practical Machine Learning assignment
 This is my first github file and I just learn how to use it yesterday. I don't know why the codes below are monochrome since I know they should be marked with different colors.
-`Please forgive me!`
+Please forgive me for that!
 ##Data
 Loading the data from my drive D.
 ```
@@ -34,4 +34,11 @@ NAs <- apply(mytraining,2,function(x) {sum(is.na(x))})
 mytraining <- mytraining[,which(NAs == 0)]
 ```
 The final training set is named mytraining.
+
+##Modeling
+I use randomForest caret to predict the model.
+rfmodel <- randomForest(classe ~ ., data = mytraining, ntrees = 50, importance = TRUE )
+p1 <- predict(rfmodel, mytraining)
+print(confusionMatrix(p1, mytraining$classe))
+
 
